@@ -1,7 +1,9 @@
 ---
 title: "Baur"
 date: 2019-12-24T20:18:16+07:00
-draft: true
+draft: false
+categories: [mantap, hebat]
+tags: ['a','b']
 ---
 Hai heheh
 

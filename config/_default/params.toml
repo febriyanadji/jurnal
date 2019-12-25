@@ -1,5 +1,5 @@
-logoText = "Zzo" # Logo text that appears in the site navigation bar.
-description = "The Zzo theme for Hugo example site." # for SEO
+logoText = "Febriyan" # Logo text that appears in the site navigation bar.
+description = "Jurnal Febriyan" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 
@@ -7,7 +7,7 @@ custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/
 homeHeaderType = "text" # text, img, slide
 
 # navbar
-enableThemeChange = true # site color theme
+enableThemeChange = false # site color theme
 
 # body
 enableBreadcrumb = true # breadcrumb for list, single page
@@ -23,8 +23,8 @@ paginateWindow = 1 # setting it to 1 gives 7 buttons, 2 gives 9, etc. If set 1: 
 # whoami: usage - home page sidebar, single page bottom of post. all values can be empty
 myname = "Febriyan Adji Saputro"
 email = "febriyan.aji@gmail.com"
-whoami = "Hamba Allah"
-useGravatar = false
+whoami = "Manusia biasa .."
+useGravatar = true
 location = "Jepara, Indonesia"
 organization = ""
 link = "https://github.com/febriyanadji"
@@ -41,22 +41,22 @@ itemsPerCategory = 5 # maximum number of posts shown in the sidebar.
 
 # footer
 showPoweredBy = true # show footer text: Powered by Hugo and Zzo theme
-showFeedLinks = true # RSS Feed 
-showSocialLinks = true # email, facebook, twitter ...
-enableLangChange = true # show button at bottom left of footer.
+showFeedLinks = false # RSS Feed 
+showSocialLinks = false # email, facebook, twitter ...
+enableLangChange = false # show button at bottom left of footer.
 themeOptions = ["dark", "light", "hacker", "solarized", "custom"] # select options for site color theme
 
 # service
 baiduAnalytics = "" # alternative of google analytics
-enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
+enableBusuanzi = true # if set true, total page view, total unique visitors show up in the footer.
 busuanziSiteUV = true # unique visitors (total number of visitors)
 busuanziSitePV = true # site total page view count
 busuanziPagePV = true # post view count
 
 # comment
 enableComment = true
-disqus_shortname = "" 
-commento = false
+disqus_shortname = "jurnalfebriyan" 
+commento = true
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
 owner = ""              # Your GitHub ID
@@ -101,25 +101,25 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-email = "mailto:your@email.com"
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/zzossig/hugo-theme-zzo"
+email = "mailto:febriyan.aji@gmail.com"
+facebook = ""
+twitter = ""
+github = "https://github.com/febriyanadji/"
 stack-overflow = ""
 instagram = ""
 google-plus = ""
-youtube = ""
+youtube = "https://www.youtube.com/channel/UCH5Jba6YY--Xmpgr1fNH8Ow/"
 medium = ""
 tumblr = ""
 linkedin = ""
 pinterest = ""
 stack-exchange = ""
-telegram = ""
+telegram = "https://t.me/febriyanadji"
 steam = ""
 
 [donationOptions] 
 enable = false # if set, the donation button will show up on the single page.
 alipay = "" # Alipay QR Code image (example path: images/donation/alipay-qrcode.png) and put your file at root/static/images/donation/
 wechat = "" # Wechat pay QR Code image (example path: same as above)
-paypal = "" # Paypal URL
+paypal = "https://paypal.me/febriyanadjisaputro" # Paypal URL
 patreon = "" # Patreon URL

@@ -1,7 +1,7 @@
 ---
 title: "Cara"
 date: 2019-12-24T20:39:33+07:00
-draft: true
+draft: false
 ---
 
 ini caranya hehe `mantap` ya ``keren`` , ayolah **mantap** hehe *ini italicc* mhehehe ***iniblod dan italic***
